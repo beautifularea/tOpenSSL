@@ -1,4 +1,4 @@
-(参考)[https://blog.csdn.net/xs574924427/article/details/17240793]  
+(参考 : https://blog.csdn.net/xs574924427/article/details/17240793 )  
 
 openssl使用流程  
 
