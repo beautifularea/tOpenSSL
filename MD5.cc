@@ -1,3 +1,8 @@
+/*
+ *Message Digest 算法:
+ *MD5 / SHA1 / SHA256 / SHA512 ...
+ * */
+
 #include <stdio.h>
 #include <string.h>
 #include <openssl/md5.h>
