@@ -19,4 +19,6 @@ openssl verify -CAfile ca.crt
 7 生成CRL  
 openssl ca -gencrl -out server.crl -cert ca.crt -keyfile ca.key -config /usr/lib/ssl/openssl.cnf  
 
+8 CRL格式：　DER　转换为　PEM   
+openssl crl -in gds1-64.crl -inform der -out crl.pem  
 
