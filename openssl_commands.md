@@ -22,3 +22,5 @@ openssl ca -gencrl -out server.crl -cert ca.crt -keyfile ca.key -config /usr/lib
 8 CRL格式：　DER　转换为　PEM   
 openssl crl -in gds1-64.crl -inform der -out crl.pem  
 
+9 检查证书expired date  
+ openssl x509 -in signed.crt -noout -dates  
